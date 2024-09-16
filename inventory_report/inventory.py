@@ -1,4 +1,4 @@
-from inventory_report.product import Product
+from .product import Product
 from typing import Optional, List
 
 class Inventory:

@@ -1,6 +1,6 @@
 from typing import Dict, Type
 from abc import ABC, abstractmethod
-from inventory_report.product import Product
+from .product import Product
 import json
 
 class Importer(ABC):
